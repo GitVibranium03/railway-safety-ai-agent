@@ -64,11 +64,11 @@ This agent-based design reflects modern applied AI system architecture.
 ### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
-    2️⃣ Start Backend Server
+### 2️⃣ Start Backend Server
     uvicorn backend.main:app --reload
       Backend runs at:
       http://localhost:8000 
-    3️⃣ Start Frontend  Backend runs at:
+### 3️⃣ Start Frontend  Backend runs at:
       streamlit run frontend.py
       http://localhost:8501
       
